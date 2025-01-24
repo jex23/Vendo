@@ -1,0 +1,57 @@
+.selection-page {
+    height: 100vh;
+    width: 100vw; /* Ensure it takes the full viewport width */
+    margin: 0;
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    justify-content: flex-start; /* Align content at the top */
+    align-items: center; /* Center horizontally */
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom right, #6a11cb, #2575fc);
+    padding-top: 200px; /* Optional: Add some spacing from the top */
+}
+
+
+  .card-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card {
+    background: linear-gradient(to bottom right, #89f7fe, #66a6ff);
+    
+    /* Complementary gradient */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+    width: 250px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    color: white; /* Ensure text is readable */
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+  
+  .card h2 {
+    margin-bottom: 10px;
+  }
+  
+  .card p {
+    font-size: 16px; /* Increase the text size */
+    color: white; /* Change the text color to white */
+    margin-top: 10px; /* Optional: Add some spacing from the element above */
+}
+  
+  .card-image {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 10px;
+    border-radius: 8px;
+  }
+  
